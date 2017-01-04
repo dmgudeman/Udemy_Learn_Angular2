@@ -9,6 +9,7 @@
                       *ngIf='showImage'>
               <div class="caption">
                   <button class="btn btn-primary" (click)="toggleImage()">{{showImage ? 'Hide Image' : 'Show Image'}}</button>
+                  <button class="btn btn-warn" (click)="changeMethod()">Click Me</button>
                 <h4 class="pull-right">
                   {{book.bookPrice | currency:'EUR': true}}
                 </h4>
