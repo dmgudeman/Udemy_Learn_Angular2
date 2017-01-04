@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 
 export class BooksListComponent {
   imageWidth: number = 100;
+  showImage:boolean = true;
 
   bookAuthor: string = "Tom Jones";
   bookTitle: string = "War and Peace 2";
@@ -15,4 +16,8 @@ export class BooksListComponent {
   bookDescription: string = "Book of historical fiction";
   bookReviews: number = 15;
   bookImageUrl: string = "app/assets/images/656.jpg";
+
+  toggleImage(): void {
+    this.showImage = !this.showImage;
+  }
 }
