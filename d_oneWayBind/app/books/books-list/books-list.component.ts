@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
 export class BooksListComponent {
   imageWidth: number = 100;
   showImage:boolean = true;
+  booksInStock:number = 2;
 
   bookAuthor: string = "Tom Jones";
   bookTitle: string = "War and Peace 2";
