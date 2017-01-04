@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { IBook } from '../books.book';
+/**
 interface IBook{
     bookAuthor: string;
     bookTitle: string;
@@ -11,7 +13,7 @@ interface IBook{
     hardcover?: boolean;
 
 }
-
+*/
 @Component({
     moduleId: module.id,
     selector: 'bs-books-list',
