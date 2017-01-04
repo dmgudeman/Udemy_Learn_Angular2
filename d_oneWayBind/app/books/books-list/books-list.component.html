@@ -7,6 +7,7 @@
               <img [src]="book.bookImageUrl"
                        [style.width.px]="imageWidth"
                       *ngIf='showImage'>
+                <div [ngClass]="{'redClass':showImage, 'yellowClass':!showImage}">ngClass Test</div>
               <div class="caption">
                   <button class="btn btn-primary" (click)="toggleImage()">{{showImage ? 'Hide Image' : 'Show Image'}}</button>
                 <h4 class="pull-right">
