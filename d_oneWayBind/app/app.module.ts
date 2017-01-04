@@ -5,13 +5,15 @@ import { AppComponent }   from './app.component';
 import { BooksListComponent }   from './books/books-list/books-list.component';
 import { HighlightDirective } from './shared/highlightt.directive';
 import { TruncatePipe } from './shared/pipes/truncate.pipe';
+import { FavoriteComponent } from './favorites/favorite.component';
 
 @NgModule({
     imports: [BrowserModule, FormsModule],
     declarations: [AppComponent,
         BooksListComponent,
         HighlightDirective,
-        TruncatePipe
+        TruncatePipe,
+        FavoriteComponent
     ],
     bootstrap: [AppComponent]
 })

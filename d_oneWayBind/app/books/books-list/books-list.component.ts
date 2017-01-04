@@ -33,8 +33,7 @@ export class BooksListComponent implements OnInit, OnChanges {
         publishedOn: new Date('02/11/1921'),
         inStock:"yes",
         bookReviews: 15,
-        bookImageUrl: "app/assets/images/656.jpg",
-        hardcover:false
+        bookImageUrl: "app/assets/images/656.jpg"
     }]
 
     toggleImage():void {
