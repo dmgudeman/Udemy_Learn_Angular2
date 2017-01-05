@@ -2,7 +2,6 @@
  *
  * Created by davidgudeman on 1/4/17.
  */
-
 export interface IBook {
     id: string;
     name: string;
@@ -14,6 +13,8 @@ export interface IBook {
     specifications:  string;
     inStock: boolean;
     price: number;
+    starRating: number;
     imageUrl:  string;
 
 }
+
